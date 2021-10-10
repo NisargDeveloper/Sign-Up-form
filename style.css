@@ -1,0 +1,162 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./bg-intro-desktop.png");
+  background-color: #ff7a7a;
+  height: 100vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 414px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.paragraph {
+  font-size: 20px;
+  margin-top: 43px;
+  margin-right: 60px;
+  font-weight: 300;
+  color: white;
+  opacity: 0.8;
+}
+
+.heading-box {
+  background-color: #6055a5;
+  width: 541px;
+  height: 60px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color: white;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.heading-box span {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.heading-box p {
+  opacity: 0.8;
+}
+
+.left-written {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 11.5%;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.signUp-box {
+  height: 477px;
+  background: white;
+  width: 541px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  width: 541px;
+}
+
+.right-written {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 560px;
+}
+
+input:nth-child(1) {
+  margin-top: 41px;
+}
+
+input {
+  margin-bottom: 21px;
+  margin-left: 41px;
+  margin-right: 41px;
+  height: 41px;
+  padding-left: 35px;
+  border-radius: 5px;
+  border: 0.2px solid rgba(71, 70, 70, 0.3);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  caret-color: #6055a5;
+}
+
+.submit {
+  margin-bottom: 21px;
+  margin-left: 41px;
+  margin-right: 41px;
+  height: 54px;
+  padding-left: 35px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: #38cc8c;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.55;
+  font-weight: 700;
+}
+
+.terms span {
+  color: red;
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
